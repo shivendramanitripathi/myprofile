@@ -63,7 +63,7 @@
     },
     {
       "name": "flutter",
-      "rootUri": "file:///C:/developer/flutter/packages/flutter",
+      "rootUri": "file:///C:/developer/flutternew/flutter/packages/flutter",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
@@ -81,13 +81,13 @@
     },
     {
       "name": "flutter_test",
-      "rootUri": "file:///C:/developer/flutter/packages/flutter_test",
+      "rootUri": "file:///C:/developer/flutternew/flutter/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "flutter_web_plugins",
-      "rootUri": "file:///C:/developer/flutter/packages/flutter_web_plugins",
+      "rootUri": "file:///C:/developer/flutternew/flutter/packages/flutter_web_plugins",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
@@ -237,7 +237,7 @@
     },
     {
       "name": "sky_engine",
-      "rootUri": "file:///C:/developer/flutter/bin/cache/pkg/sky_engine",
+      "rootUri": "file:///C:/developer/flutternew/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
@@ -392,7 +392,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2024-03-04T21:02:57.166781Z",
+  "generated": "2024-03-04T21:06:17.139934Z",
   "generator": "pub",
   "generatorVersion": "3.3.0"
 }
