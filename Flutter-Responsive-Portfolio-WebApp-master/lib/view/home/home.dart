@@ -13,7 +13,7 @@ class HomePage extends StatelessWidget {
         pages: [
       const Introduction(),
       ProjectsView(),
-      // Certifications(),
+      Certifications(),
     ]);
   }
 }
