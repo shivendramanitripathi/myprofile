@@ -18,7 +18,7 @@ class PersonalInfo extends StatelessWidget {
   }
 
   _launchPhone() async {
-    const url = 'tel:+917081263332';
+    const url = 'tel://+917081263332';
     if (await canLaunch(url)) {
       await launch(url);
     } else {
