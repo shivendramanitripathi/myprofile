@@ -13,7 +13,6 @@ class SocialMediaIconColumn extends StatelessWidget {
         SocialMediaIcon(icon: 'assets/icons/github.svg',onTap: () => launchUrl(Uri.parse('https://github.com/shivendramanitripathi/DIgiChat/tree/main/chat1')),),
         const SocialMediaIcon(icon: 'assets/icons/dribble.svg',),
         const SocialMediaIcon(icon: 'assets/icons/twitter.svg'),
-        const SocialMediaIcon(icon: 'assets/icons/linkedin.svg'),
       ],
     );
   }

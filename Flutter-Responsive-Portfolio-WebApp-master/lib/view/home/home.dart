@@ -14,6 +14,9 @@ class HomePage extends StatelessWidget {
       const Introduction(),
       ProjectsView(),
       Certifications(),
+      Certifications(),
+
+
     ]);
   }
 }
