@@ -1,12 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_portfolio/model/project_model.dart';
-import 'package:flutter_portfolio/res/constants.dart';
-import 'package:flutter_portfolio/view model/responsive.dart';
+import 'package:myProfile/model/project_model.dart';
+import 'package:myProfile/screen/BoadredScreen/components/ProjectLink.dart';
+import 'package:myProfile/screen/Controller/ProjectDetailsProvider.dart';
+import 'package:myProfile/screenWidget/responsive.dart';
+import 'package:myProfile/utils/constants.dart';
 import 'package:provider/provider.dart';
 
-class ProjectDetail extends StatelessWidget {
+class ProjectDetail extends StatefulWidget {
   const ProjectDetail({Key? key}) : super(key: key);
 
+  @override
+  State<ProjectDetail> createState() => _ProjectDetailState();
+}
+
+class _ProjectDetailState extends State<ProjectDetail> {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;

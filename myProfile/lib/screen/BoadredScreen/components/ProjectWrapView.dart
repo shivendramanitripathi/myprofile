@@ -5,11 +5,11 @@ import '../../../model/project_model.dart';
 import '../../../res/constants.dart';
 import '../../../view model/info_controllers/projects_info.dart';
 
-class ProjectGrid extends StatelessWidget {
+class ProjectWrapView extends StatelessWidget {
   final int crossAxisCount;
   final double ratio;
 
-  ProjectGrid({Key? key, this.crossAxisCount = 3, this.ratio = 1.3})
+  ProjectWrapView({Key? key, this.crossAxisCount = 3, this.ratio = 1.3})
       : super(key: key);
 
   @override

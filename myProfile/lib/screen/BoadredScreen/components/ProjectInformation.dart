@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:myProfile/screen/BoadredScreen/components/ProjectDetailView.dart';
+import 'package:myProfile/utils/constants.dart';
 import 'package:provider/provider.dart';
 import '../../../res/constants.dart';
 import '../../../view model/info_controllers/projects_info.dart';
